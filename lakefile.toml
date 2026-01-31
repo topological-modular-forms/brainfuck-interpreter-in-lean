@@ -1,0 +1,10 @@
+name = "BrainfuckInterpreter"
+version = "0.1.0"
+defaultTargets = ["brainfuckinterpreter"]
+
+[[lean_lib]]
+name = "BrainfuckInterpreter"
+
+[[lean_exe]]
+name = "brainfuckinterpreter"
+root = "Main"
